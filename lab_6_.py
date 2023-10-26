@@ -6,3 +6,4 @@
 def encode(decoded_numbers):
     for num in decoded_numbers:
         num += 3
+
