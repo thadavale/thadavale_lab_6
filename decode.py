@@ -8,4 +8,4 @@ def decode(encoded_pass):
         decoded_pass += decoded_num
     return decoded_pass
 
-print(decode("1023"))
+
