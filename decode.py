@@ -1,3 +1,5 @@
+# Alice Jiang
+
 def decode(encoded_pass):
     decoded_pass = ""
     for num in range(0, len(encoded_pass)):
