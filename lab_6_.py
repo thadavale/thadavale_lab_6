@@ -3,4 +3,6 @@
 # Lab 6 Encode Decode
 
 
-print("hello World")
+def encode(decoded_numbers):
+    for num in decoded_numbers:
+        num += 3
