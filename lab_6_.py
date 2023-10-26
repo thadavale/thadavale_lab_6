@@ -11,5 +11,3 @@ def encode(decoded_numbers):
         encoded_numbers.append(str(new_num))
     return encoded_numbers
 
-user_input = input()
-print(encode(user_input))
