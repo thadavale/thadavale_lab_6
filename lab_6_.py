@@ -14,9 +14,7 @@ def encode(decoded_numbers):
     encoded_numbers = ''.join(encoded_numbers)
     return str(encoded_numbers)
 
-input = input()
 
-print(encode(input))
 
 # Alice Jiang
 
