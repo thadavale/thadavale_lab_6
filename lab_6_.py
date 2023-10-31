@@ -2,9 +2,8 @@
 
 # Lab 6 Encode Decode
 
-encoded_numbers = []
-
 def encode(decoded_numbers):
+    encoded_numbers = []
     global encoded_numbers
     for num in decoded_numbers:
         new_num = int(num) + 3                          # Adds 3 to every number in the decoded numbers list
@@ -13,7 +12,6 @@ def encode(decoded_numbers):
         encoded_numbers.append(str(new_num))
     encoded_numbers = ''.join(encoded_numbers)
     return str(encoded_numbers)
-
 
 
 # Main Function
