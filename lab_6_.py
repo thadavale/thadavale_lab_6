@@ -33,25 +33,6 @@ if __name__ == '__main__':
         if user_input == "3":
             break
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Alice Jiang
 
 def decode(encoded_pass):
