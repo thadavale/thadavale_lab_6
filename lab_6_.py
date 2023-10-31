@@ -16,6 +16,42 @@ def encode(decoded_numbers):
 
 
 
+# Main Function
+if __name__ == '__main__':
+    while True:
+        print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit")
+        user_input = input("Please enter an option: ")
+        print()
+        if user_input == "1":
+            decoded_numbers = input("Please enter your password to encode: ")
+            encoded_numbers = encode(decoded_numbers)
+            print("Your password has been encoded and stored!")
+            print()
+        if user_input == "2":
+            decoded_numbers = decode(encoded_numbers)
+            print(f"The encoded password is {encoded_numbers}, and the original password is {decoded_numbers}.")
+        if user_input == "3":
+            break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Alice Jiang
 
 def decode(encoded_pass):
